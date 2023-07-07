@@ -1,0 +1,133 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container-a{
+    flex: 1 0 50%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.logo.svg{
+    width: 30px;
+    height: 10px;
+}
+.illustration-mockups.svg{
+    width: 500px;
+    height: 400px;
+}
+.container-b{
+    display: flex;
+    flex-direction: column;
+}
+.container-b1{
+    flex: 1 0 80%;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.container-b2{
+    flex: 1 0 20%;
+    width: 535px;
+    background-color: hsl(257, 40%, 45%);
+}
+.head1{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.subhead1{
+    color: white;
+    font-size: large;
+}
+.button{
+    width: 140px;
+    height: 47px;
+    border-radius: 22px;
+    border-color: white;
+    background-color: white;
+    color: hsl(300, 69%, 71%);
+    text-align: center;
+    cursor: pointer;
+}
+.container-b2{
+    display: flex;
+    flex-direction: row;
+}
+.space1{
+    flex: 1 0 60%;
+}
+.social-icon{
+    color: white;
+    transition: color 0.2s;
+    margin: 0 10px;
+    font-size: 40px;
+    text-decoration: none;
+}
+.social-icon:hover {
+    color: #333333;
+}
+@media screen and (max-width: 460px) {
+    html, body{
+        background-color: hsl(257, 40%, 45%); 
+        background-image: url("../bg-mobile.svg");
+        background-size: cover;
+        background-repeat: repeat-y;
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-a{
+        flex: 1 0 20%;
+        margin-left: 95px;
+        margin-top: 30px;
+        max-width: 230px;
+        max-height: 180px;
+    }
+    .img1{
+        max-width: 400px;
+        max-height: 50px;
+    }
+    .img2{
+        max-width: 230px;
+        max-height: 180px;
+    }
+    .container-b{
+        flex: 1 0 80%;
+        margin-top: 0px;
+    }
+    .sub-container-b{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-b1{
+        flex: 1 0 70%;
+        margin-left: 70px;
+        text-align: center;
+    }
+    .container-b2{
+        display: flex;
+        flex-direction: column;
+    }
+    .space1{
+        flex: 1 0 50;
+    }
+    .head1{
+        
+    }
+}
+*/width="264" height="49pt"
+width="657.638" height="410.833"
+"709" height="506" 
+
+<div class="image1">
+                        <img src="facebook-icon-removebg-preview.png" alt="Facebook" width="50px" height="50px"/>
+                    </div>
+                    <div class="image2">  
+                        <img src="twitter-icon-removebg-preview.png" alt="Twitter" width="50px" height="50px"/>
+                    </div>
+                    <div class="image3">  
+                        <img src="instagram-ciccle-icon-removebg-preview.png" alt="Instagran" width="50px" height="50px"/>
+                    </div>    
+                </div>
